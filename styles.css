@@ -1,0 +1,142 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
+}
+
+body{
+    background-color: rgb(17, 17, 17);
+}
+
+header h1{
+    margin: 0 auto;
+    font-family: calibri;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+.aboutBanner img{
+    width: 25%;
+    top: 20%;
+}
+
+.aboutBanner{
+    position: relative;
+    left: 37.5%;
+    margin: 10% auto;
+}
+
+.aboutBanner .welcome{
+    position: absolute;
+    top: 95%;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: calibri;
+}
+
+.banner{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.banner .welcome{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: calibri;
+}
+.banner h2{
+    font-size: 500%;
+}
+header{
+    top: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(35, 35, 35);
+    width: 100%;
+    z-index: 1;
+}
+header h1{
+    color: white;
+    border: 2px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 5px;
+}
+header h1 a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    background-color: rgb(35, 35, 35);
+    padding: 20px;
+    position: sticky;
+    top: 74px;
+    margin: 0 25%;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+    color:white;
+    font-family: calibri;
+    left: auto;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+main p.info{
+    font-size: 20px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: rgb(35, 35, 35);
+    border-radius: 25px;
+    color: rgb(190, 190, 190);
+    text-indent: 2%;
+}
+
+nav li a:hover{
+    color: lime;
+}
+
+main ul{
+    white-space: nowrap;
+    max-width: 1200px;
+}
+main li{
+    list-style-type: none;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer{
+      color: rgb(75,75,75);
+      left: 5%;
+  }
